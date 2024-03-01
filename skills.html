@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        font-family: Gill Sans, sans-serif;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body {
+        background-color: #333;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h3 {
+        margin: 5px;
+    }
+
+    .skill {
+        width: 500px;
+        margin: 60px auto;
+        color: #fff;
+        padding: 20px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+    .skill li {
+        margin: 20px 0;
+        padding: 10px;
+    }
+
+    .bar {
+        background-color: #353b48;
+        display: block;
+        height: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .bar:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 20px rgba(0, 0, 0, 0.22);
+    }
+
+    .bar span {
+        height: 20px;
+        float: left;
+        background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 0, 1.0)100%);
+    }
+
+    .html {
+        width: 90%;
+        animation: html 3s;
+    }
+
+    .css {
+        width: 90%;
+        animation: css 3s;
+    }
+
+    .java script {
+        width: 90%;
+        animation: java script 3s;
+    }
+
+    .c {
+        width: 90%;
+        animation: c 3s;
+    }
+
+    .java {
+        width: 90%;
+        animation: java 3s;
+    }
+
+    @keyframes html {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 90%;
+        }
+    }
+</style>
+
+<body>
+
+    <div class="skill">
+        <h1>my skill</h1>
+        <li>
+            <h3>html</h3>
+            <span>class="bar><span class="html"></span></span>
+        </li>
+        <li>
+            <h3>css</h3>
+            <span>class="bar><span class="css"></span></span>
+        </li>
+        <li>
+            <h3>java script</h3>
+            <span>class="bar><span class="java script"></span></span>
+        </li>
+        <li>
+            <h3>C</h3>
+            <span>class="bar><span class="C"></span></span>
+        </li>
+        <li>
+            <h3>C++</h3>
+            <span>class="bar><span class="C++"></span></span>
+        </li>
+        <li>
+            <h3>java</h3>
+            <span>class="bar><span class="java"></span></span>
+        </li>
+    </div>
+</body>
+
+</html>
